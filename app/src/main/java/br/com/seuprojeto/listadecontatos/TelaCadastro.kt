@@ -15,7 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import br.com.seuprojeto.listadecontatos.ui.theme.* // Ajuste o pacote aqui também se necessário
+import br.com.seuprojeto.listadecontatos.ui.theme.* 
 import kotlinx.coroutines.launch
 
 @Composable
