@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                 composable("tela_lista") {
                     TelaMeusContatos(
                         dao = contatoDao,
-                        navController = navController, // AJUSTADO: Passando o navController para permitir editar
+                        navController = navController, 
                         onVoltarCadastro = { navController.navigate("tela_cadastro") }
                     )
                 }
@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
                 // rota TelaEditarContato
                 composable(
                     route = "editar/{contatoId}",
-                    arguments = listOf(navArgument("contatoId") { type = NavType.IntType }) // CORRIGIDO: navArgument
+                    arguments = listOf(navArgument("contatoId") { type = NavType.IntType }) 
                 ) { backStackEntry ->
                     val id = backStackEntry.arguments?.getInt("contatoId") ?: 0
                     TelaEditarContato(
