@@ -37,7 +37,7 @@ Se for rodar o projeto no seu computador, certifique-se de configurar o Android 
 1. Faça o clone deste repositório.
 2. Abra o projeto no **Android Studio**.
 3. Aguarde o Gradle sincronizar.
-4. Clique no botão **Play** (Triângulo verde) para rodar no seu emulador ou celular.
+4. Clique no botão **Play** para rodar no seu emulador ou celular.
 
 ---
 
